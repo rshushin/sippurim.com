@@ -41,6 +41,7 @@ export default {
           DEFAULT: "#D4E7B5", // light olive
           foreground: "#2C3A1A",
         },
+        "background-light": "#f8fafc", // new light background color
       },
       keyframes: {
         "fade-up": {
