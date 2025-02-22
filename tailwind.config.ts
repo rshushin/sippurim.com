@@ -26,11 +26,11 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#8B9B6C", // olive green
+          DEFAULT: "#709A08", // new olive green
           foreground: "#ffffff",
         },
         secondary: {
-          DEFAULT: "#5C6B42", // darker olive
+          DEFAULT: "#567306", // darker shade of the new olive
           foreground: "#ffffff",
         },
         muted: {
@@ -38,7 +38,7 @@ export default {
           foreground: "#2C3A1A",
         },
         accent: {
-          DEFAULT: "#D4E7B5", // light olive
+          DEFAULT: "#A8D44D", // lighter shade of the new olive
           foreground: "#2C3A1A",
         },
         "background-light": "#f8fafc", // new light background color
