@@ -8,21 +8,17 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Footer from "@/components/Footer";
 
-// Initialise a shared react-query client
 const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
-      {/* Global toast / notification stacks */}
       <Toaster />
       <Sonner />
 
-      {/* Routing */}
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
 
